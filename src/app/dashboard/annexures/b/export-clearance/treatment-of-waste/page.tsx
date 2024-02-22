@@ -21,7 +21,7 @@ const TreatmentOfWasteExport = () => {
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <form className="space-y-5">
+          <form >
             <Accordion
               type="single"
               collapsible

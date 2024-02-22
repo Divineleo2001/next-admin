@@ -125,7 +125,7 @@ const TreatmentOfWasteExport = () => {
                 <AccordionTrigger>
                   <h1 className="font-semibold text-2xl">Part III</h1>
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className="space-y-5 p-3">
                   <div className="space-y-3">
                     <p className="text-xl font-light">
                       Duty to be remitted on the quantity of warehoused goods

@@ -3,6 +3,7 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -36,6 +37,15 @@ export default function AddWitnessDialog() {
               <Input />
             </div>
           </div>
+
+          <div className="flex flex-row items-center  ">
+            <Label className="label-primary">
+              Email
+            </Label>
+            <div className="flex-1">
+              <Input />
+            </div>
+          </div>
           <div className="flex flex-row items-center  ">
             <Label className="label-primary">
               Signature of the Witness
@@ -60,8 +70,14 @@ export default function AddWitnessDialog() {
               <Input />
             </div>
           </div>
+
+          <DialogFooter>
+            <Button variant="default">Save</Button>
+            <Button variant="destructive">Cancel</Button>
+          </DialogFooter>
           
         </DialogContent>
+       
       </Dialog>
     </>
   );

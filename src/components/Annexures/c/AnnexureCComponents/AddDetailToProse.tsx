@@ -163,31 +163,31 @@ export default function AddDetailToProse() {
                   duty)
                 </TableCell>
                 <TableCell>
-                  <Input type="number" placeholder="0"/> 
+                  <Input type="number" placeholder="0" />
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>Debit</TableCell>
                 <TableCell>
-                  <Input type="number" placeholder="0"/> 
+                  <Input type="number" placeholder="0" />
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>Credit</TableCell>
                 <TableCell>
-                  <Input type="number" placeholder="0"/> 
+                  <Input type="number" placeholder="0" />
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>Balance of bond Value</TableCell>
                 <TableCell>
-                  <Input type="number" placeholder="0"/> 
+                  <Input type="number" placeholder="0" />
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>Remarks</TableCell>
                 <TableCell>
-                  <Textarea placeholder="Provide the necessary details"/>
+                  <Textarea placeholder="Provide the necessary details" />
                 </TableCell>
               </TableRow>
               <TableRow>
